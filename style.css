@@ -1,0 +1,49 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+	font-family: proximabold;
+	src: url("Fonts/proxima-bold/Proxima-Nova-Bold.otf");
+}
+
+@font-face {
+	font-family: proximareg;
+	src: url("Fonts/proxima-reg/ProximaNova-Regular.otf");
+}
+
+body{
+	background: linear-gradient(to right, red, yellow);
+}
+
+.main-title{
+	font-family: proximabold;
+	margin-top: 1rem; 
+	font-size: 5.5rem;
+	text-align: center;
+}
+
+.second-title{
+	font-family: proximareg;
+	margin-top: 1rem; 
+	font-size: 2rem;
+	text-align: center;
+}
+
+.color-input{
+	margin-top: 1rem;
+	display: flex;
+	justify-content: center;
+}
+
+.color2{
+	margin-left: 2rem;
+}
+
+.result{
+	color:white;
+	margin-top: 2rem;
+	font-family: proximareg;
+	text-align: center;
+}
